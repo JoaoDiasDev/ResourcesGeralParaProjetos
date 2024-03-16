@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T00:04:04.288Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="gr_E75jynllX2o3XfONc" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T00:20:29.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="LO8HQZ2g4jX25OhZZGfC" version="24.0.2" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
-    <mxGraphModel dx="1912" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,20 +40,8 @@
         <mxCell id="15" value="Adicionar itens ao carrinho de compras" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="545" width="130" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="t7j39G-WJoQUOJ4sSuQn-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="16" value="Programming" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="16" value="Calcular frete automaticamente" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="630" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="t7j39G-WJoQUOJ4sSuQn-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17" target="18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="17" value="HTTP" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="720" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="18" value="HTS" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="800" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t7j39G-WJoQUOJ4sSuQn-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="29">
           <mxGeometry relative="1" as="geometry">
@@ -75,10 +63,13 @@
         <mxCell id="t7j39G-WJoQUOJ4sSuQn-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="Client / Server" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="31" value="Visualizar detalhes do produto" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="855" y="635" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="32" value="Data Collection" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="32" target="t7j39G-WJoQUOJ4sSuQn-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="Notificar clientes sobre novidades e promoções" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="855" y="725" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t7j39G-WJoQUOJ4sSuQn-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42" target="43">
@@ -87,7 +78,10 @@
         <mxCell id="42" value="Adicionar novo sabor de cupcake" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="530" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="43" value="Knowhow" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="t7j39G-WJoQUOJ4sSuQn-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="Visualizar relatório de vendas mensais" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="610" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t7j39G-WJoQUOJ4sSuQn-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48" target="42">
@@ -125,6 +119,26 @@
             <mxPoint x="410" y="235" as="sourcePoint" />
             <mxPoint x="510" y="135" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t7j39G-WJoQUOJ4sSuQn-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1265" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-136" value="Gerenciar promoções e descontos" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="690" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t7j39G-WJoQUOJ4sSuQn-138" target="t7j39G-WJoQUOJ4sSuQn-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-138" value="Visualizar horários de entrega disponíveis" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="800" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-141" value="Recuperar senha esquecida" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t7j39G-WJoQUOJ4sSuQn-142" value="Visualizar perfil do cliente" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="880" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
